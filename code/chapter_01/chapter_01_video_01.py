@@ -5,7 +5,7 @@ TP = 30
 
 accuracy = (TN + TP) / (TN + FP + FN + TP)
 
-accuracy
+print(accuracy)
 
 sensitivity = TP / (TP + FN)
 
@@ -13,4 +13,4 @@ specificity = TN / (TN + FP)
 
 balanced_accuracy = (sensitivity + specificity) / 2
 
-balanced_accuracy
+print(balanced_accuracy)
